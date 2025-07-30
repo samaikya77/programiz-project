@@ -5,7 +5,6 @@ import Home from './Home';
 import Html from './components/html';
 import Css from './components/css';
 import Js from './components/js';
-import Java from './components/Rust';
 import Python from './components/python';
 import C from './components/c++';
 import Ruby from './components/ruby';
@@ -27,7 +26,6 @@ function App() {
         <Route path="/html" element={<Html />} />
         <Route path="/css" element={<Css />} />
         <Route path="/js" element={<Js />} />
-        <Route path="/java" element={<Java />} />
         <Route path="/python" element={<Python />} />
         <Route path="/c" element={<C />} />
         <Route path="/ruby" element={<Ruby />} />
