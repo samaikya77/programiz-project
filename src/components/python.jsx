@@ -19,6 +19,7 @@ function Python() {
         practical examples, and step-by-step guidance.
       </p>
       <p>Python is one of the top programming languages in the world, widely used in fields such as AI, machine learning, data science, and web development.</p>
+      
     </div>
   );
 }

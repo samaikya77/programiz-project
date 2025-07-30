@@ -14,7 +14,7 @@ function Home() {
     <>
       <Nav />
       <div className="home-container">
-        <h1>Welcome to Home</h1>
+        <h1>Welcome to Programiz</h1>
 
         <button onClick={() => navigate('/python')} className="home-button"><SiPython /> Python</button>
         <button onClick={() => navigate('/html')} className="home-button"><SiHtml5 /> HTML</button>
@@ -32,17 +32,15 @@ function Home() {
         <button onClick={() => navigate('/swift')} className="home-button"><SiSwift /> Swift</button>
       </div>
       {/* Footer */}
-      <footer className="footer">
-        <div className="footer-logo">
-           <span className="footer-logo-text">Programiz</span>
-           <span className="footer-pro-tag">PRO</span>
-        </div>
-           <h2 className="footer-heading">Our Hands-on Coding Platform</h2>
-           <p className="footer-description">
-           Created with a decade of experience in teaching programming and
-           helping students all over the world.
-           </p>
-     </footer>
+      <footer>
+         <div className='footer'>
+            <h1>Programiz Pro</h1> 
+            <h4>Our Hands-on Coding Platform</h4>
+            <h5>Created with a decade of experience in teaching programming and feedback from millions of users, Programiz PRO offers everything you need to learn to code in one place.</h5>
+         </div>
+      </footer>
+  
+
     </>
   );
 }
